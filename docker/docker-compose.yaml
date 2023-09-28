@@ -1,0 +1,23 @@
+version: "3.8"
+services:
+  pytorch-1-12-1:
+    build:
+      context: ./pytorch/1.12.1
+    container_name: pytorch-1-12-1
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ["0,1,2,3"] # need to be modified in real usage
+              capabilities: [gpu]
+    image: dadadadockerer/pytorch:1.12.1
+    ipc: "host"
+    ports:
+      # gpu 0: 5566 gpu 1: 5567 gpu 2: 5568 gpu 3: 5569
+      - 5569:5569 # need to be modified in real usasge
+    restart: always
+    stdin_open: true
+    tty: true
+    volumes:
+      - ../:/workspace/
