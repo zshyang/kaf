@@ -1,5 +1,5 @@
 # Keypoint-Augmented Self-Supervised Learning for Medical Image Segmentation with Limited Annotation
-this is the offical implementation `Keypoint-Augmented Self-Supervised Learning for Medical Image Segmentation with Limited Annotation` at NeurIPS 2023
+The offical implementation `Keypoint-Augmented Self-Supervised Learning for Medical Image Segmentation with Limited Annotation` at NeurIPS 2023
 
 
 ## Environment
