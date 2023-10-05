@@ -140,5 +140,12 @@ The [pytorch implementation](https://github.com/yingxin-jia/SuperGlue-pytorch) o
 ## Citation
 If you use this codebase, please consider citation of our work:
 ```
-TODO
+@misc{yang2023keypointaugmented,
+      title={Keypoint-Augmented Self-Supervised Learning for Medical Image Segmentation with Limited Annotation}, 
+      author={Zhangsihao Yang and Mengwei Ren and Kaize Ding and Guido Gerig and Yalin Wang},
+      year={2023},
+      eprint={2310.01680},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
